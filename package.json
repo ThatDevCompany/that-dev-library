@@ -1,0 +1,39 @@
+{
+    "name": "that-dev-library",
+    "description": "Library of standard dev dependencies and es lint config",
+    "version": "0.0.11",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "@types/jest": "27.0.0",
+        "@types/node": "15.0.1",
+        "@typescript-eslint/eslint-plugin": "4.22.1",
+        "@typescript-eslint/parser": "4.22.1",
+        "depcheck": "1.2.0",
+        "eslint": "7.25.0",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-formatter-summary": "1.0.4",
+        "eslint-import-resolver-react-native": "0.2.0",
+        "eslint-import-resolver-typescript": "2.2.0",
+        "eslint-plugin-i18next": "5.1.1",
+        "eslint-plugin-import": "2.22.1",
+        "eslint-plugin-jsx-a11y": "6.3.1",
+        "eslint-plugin-prettier": "3.4.0",
+        "eslint-plugin-react": "7.20.5",
+        "eslint-plugin-react-hooks": "4.2.0",
+        "eslint-plugin-react-native": "3.10.0",
+        "eslint-watch": "7.0.0",
+        "jest": "27.0.6",
+        "prettier": "2.2.1",
+        "prettier-plugin-organize-imports": "1.1.1",
+        "typescript": "4.2.4"
+    },
+    "jest": {
+        "collectCoverageFrom": [
+            "**/*.{js,jsx}",
+            "!coverage/**/*",
+            "!.eslintrc.js",
+            "!babel.config.js",
+            "!**/index.js"
+        ]
+    }
+}
