@@ -1,7 +1,7 @@
 {
     "name": "that-dev-library",
     "description": "Library of standard dev dependencies and es lint config",
-    "version": "0.0.13",
+    "version": "0.3.1",
     "license": "UNLICENSED",
     "scripts": {
         "prepare": "npm config set registry https://registry.npmjs.org",
